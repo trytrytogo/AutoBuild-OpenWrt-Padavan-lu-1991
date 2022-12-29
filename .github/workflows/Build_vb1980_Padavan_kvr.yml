@@ -29,7 +29,7 @@ on:
         - RS1200P
         - TIMECLOUD
         - WR330
-        default: 'K2P-USB'
+        default: 'MI-R3G'
       plugins:
         description: 'json format string of include configs'
         required: true

@@ -28,6 +28,7 @@ on:
         - BELL-A040WQ
         - ZTE-E8820S
         - B70
+        default: 'MI-R3G'
       plugins:
         description: 'json format string of include configs'
         required: true

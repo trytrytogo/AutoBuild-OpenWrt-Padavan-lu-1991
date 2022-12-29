@@ -7,7 +7,7 @@ on:
         type: choice
         description: 'target to compile'
         options:
-        - K2P
+        - MI-R3G
         - RM2100
         - R2100
         - K2P-USB
@@ -20,7 +20,7 @@ on:
         - DIR-882
         - MR2600
         - MI-R3P
-        - MI-R3G
+        - K2P
         - NEWIFI
         - XY-C1
         - WR1200JS
@@ -28,7 +28,6 @@ on:
         - BELL-A040WQ
         - ZTE-E8820S
         - B70
-        default: 'MI-R3G'
       plugins:
         description: 'json format string of include configs'
         required: true
